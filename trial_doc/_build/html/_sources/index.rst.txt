@@ -4,7 +4,21 @@
    contain the root `toctree` directive.
 
 Welcome to trial QCP's documentation!
-===============================
+========================================
+
+This is an implimentation of Grover's and Shor's algorithms using Quantum Mechanics.
+
+Trial equation:
+
+.. math::
+
+   \frac{ \sum_{t=0}^{N}f(t,k) }{N}
+
+.. figure:: images/Grovers_algorithm.png
+
+   *Ilustration of Grover's Circuit*
+
+
 
 .. toctree::
    :maxdepth: 2
@@ -14,7 +28,7 @@ Welcome to trial QCP's documentation!
    template
 
 Indices and tables
-==================
+======================
 
 * :ref:`genindex`
 * :ref:`modindex`
